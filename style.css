@@ -1,7 +1,10 @@
 body {
   font-family: 'Roboto';
-  padding: 2% 5% 2% 10%;
-  background-color: rgb(247, 251, 253);
+  padding: 2% 0;
+  background-color: rgb(247, 251, 253);  
+}
+.page {
+  margin: auto;
   width: 1118px;
 }
 
