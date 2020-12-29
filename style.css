@@ -50,6 +50,7 @@ p {
 
 .header-menu {
   display: flex;
+  height: 80px;
 }
 
 .header-left {
@@ -106,6 +107,11 @@ p {
   background-color: rgb(173, 177, 180);
 }
 
+.request:hover {
+  transform: scale(0.8);
+  border: 1px solid rgb(199, 93, 241);  
+}
+
 .request-demo {
   margin: auto;
 }
@@ -150,6 +156,11 @@ p {
 
 .learn-more:active {
   background-color: rgb(173, 177, 180);
+}
+
+.learn-more:hover {
+  transform: scale(0.8);
+  border: 1px solid rgb(199, 93, 241);  
 }
 
 .container-1-photo {
